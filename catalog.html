@@ -2,7 +2,9 @@
 <html lang="ru">
   <head>
    <meta charset="utf-8">
-   <title>HTML Academy: Седона</title>
+   <title>HTML Academy: Седона - Каталог</title>
+   <link rel="icon" href="/images/favicon.png">
+   <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
      <header class="page-header">
@@ -42,7 +44,8 @@
      </header>
 
      <main class="main-inner">
-      <header class="inner-header">
+      <div class="blurred-background">
+       <header class="inner-header">
         <h1 class="inner-header-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -57,8 +60,8 @@
             <a class="breadcrumbs-link">Гостиницы</a>
           </li>
         </ul>
-      </header>
-      <section class="catalog-products">
+       </header>
+       <section class="catalog-products">
         <h2 class="visually-hidden">Фильтр для поиска гостиницы</h2>
         <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
@@ -125,9 +128,10 @@
             </div>
           </fieldset>
 
-          <button class="button" type="submit">Применить</button>
-          <button class="button" type="reset">Сбросить</button>
+          <button class="submit-button" type="submit">Применить</button>
+          <button class="reset-button" type="reset">Сбросить</button>
         </form>
+      </div>
       </section>
 
       <section class="sort-line">
@@ -173,7 +177,7 @@
               <span>От 4000 ₽</span>
             </p>
             <p>
-              <a class="button" href="#">Подробнее</a>
+              <a class="button more-details-button" href="#">Подробнее</a>
               <a class="button add-to-fav-button" href="#">В избранное</a>
             </p>
           </div>
@@ -182,7 +186,7 @@
               <img src="images/star.svg" width="18" height="17">
               <img src="images/star.svg" width="18" height="17">
               <img src="images/star.svg" width="18" height="17">
-              <b>Рейтинг: 8,5</b>
+              <p>Рейтинг: 8,5</p>
           </div>
         </li>
 
@@ -197,7 +201,7 @@
               <span>От 5000 ₽</span>
             </p>
             <p>
-              <a class="button" href="#">Подробнее</a>
+              <a class="button more-details-button" href="#">Подробнее</a>
               <a class="button added-to-fav-button" href="#">В избранном</a>
             </p>
           </div>
@@ -206,7 +210,7 @@
               <img src="images/star.svg" width="18" height="17">
               <img src="images/star.svg" width="18" height="17">
               <img src="images/star.svg" width="18" height="17">
-              <b>Рейтинг: 9,2</b>
+              <p>Рейтинг: 9,2</p>
           </div>
         </li>
 
@@ -221,7 +225,7 @@
               <span>От 2500 ₽</span>
             </p>
             <p>
-              <a class="button" href="#">Подробнее</a>
+              <a class="button more-details-button" href="#">Подробнее</a>
               <a class="button add-to-fav-button" href="#">В избранноe</a>
             </p>
           </div>
@@ -229,7 +233,7 @@
               <img src="images/star.svg" width="18" height="17" alt="Классификация места проживания: 3 звезды">
               <img src="images/star.svg" width="18" height="17">
               <img src="images/star.svg" width="18" height="17">
-              <b>Рейтинг: 6,9</b>
+              <p>Рейтинг: 6,9</p>
           </div>
         </li>
 
@@ -244,14 +248,14 @@
               <span>От 1500 ₽</span>
             </p>
             <p>
-              <a class="button" href="#">Подробнее</a>
+              <a class="button more-details-button" href="#">Подробнее</a>
               <a class="button add-to-fav-button" href="#">В избранноe</a>
             </p>
           </div>
           <div class="item-rating">
               <img src="images/star.svg" width="18" height="17" alt="Классификация места проживания: 2 звезды">
               <img src="images/star.svg" width="18" height="17">
-              <b>Рейтинг: 5,0</b>
+              <p>Рейтинг: 5,0</p>
           </div>
         </li>
        </ul>
@@ -281,7 +285,7 @@
       </section>
      </main>
 
-    <section class="subscribtion">
+    <section class="subscribtion-catalog">
       <h2 class="subscribtion-header">Подпишитесь на рассылку</h2>
       <p class="subscribtion-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscribtion-form" action="https://echo.htmlacademy.ru/" method="post">
