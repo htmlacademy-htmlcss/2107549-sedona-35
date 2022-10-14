@@ -26,35 +26,19 @@ body {
   background-color: #ffffff;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navigation-item {
   font-weight: 700;
 }
 
-.button-want-here,
-.description-sedona,
-.advantages-title,
-.hotel-search-header,
-.hotel-search-button,
-.subscribtion-header,
-.newsletter-button,
-.submit-button,
-.reset-button,
-.search-results,
-.more-details-button,
-.add-to-fav-button,
-.added-to-fav-button,
-.item-rating {
+.title {
   text-transform: uppercase;
 }
 
-.breadcrumbs,
-.catalog-filter-list,
-.navigation-item,
-.advantages-item,
-.footer-social-list,
-.sort-line-items,
-.hotels,
-.pagination {
+.list {
   list-style: none;
 }
 
@@ -65,11 +49,7 @@ body {
   text-decoration: none;
 }
 
-.navigation-link-current {
-  text-decoration: underline;
-}
-
-.blurred-background {
+.main-inner {
   background-image: url("../images/catalog-filter-blurred-background.jpg");
   background-size: 1200px 412px;
   background-repeat: no-repeat;
@@ -139,15 +119,11 @@ body {
   border-radius: 4px;
 }
 
-.item-info h3 {
+.hotel-title {
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   color: #000000;
-}
-
-a {
-  text-decoration: none;
 }
 
 .container {
@@ -184,7 +160,7 @@ a {
   background-color: #7db54f;
 }
 
-.item-rating p {
+.rating{
   position: absolute;
   font-size: 16px;
   line-height: 20px;
@@ -198,7 +174,7 @@ a {
   background-color: #f2f2f2;
 }
 
-.pagination-item:nth-child(1) a {
+.first-pagination-item a {
   font-size: 20px;
   line-height: 36px;
   font-weight: 700;
@@ -216,7 +192,7 @@ a {
   border-radius: 4px;
 }
 
-.button-want-here,
+.want-here-button,
 .hotel-search-button {
   text-decoration: none;
   background-color: #756157;
@@ -225,7 +201,7 @@ a {
   font-weight: 700;
 }
 
-.button-want-here {
+.want-here-button {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 34px;
@@ -278,10 +254,7 @@ a {
 
 .advantages-item:nth-child(4n+1) {
   color: #ffffff;
-}
-
-.advantages-item:nth-child(4n+1) {
-  background-color: #82B3D3;
+  background-color: #82b3d3;
 }
 
 .advantages-item:nth-child(2),
@@ -308,26 +281,26 @@ a {
   line-height: 26px;
 }
 
-.subscribtion {
+.subscription {
   background-image: url("../images/subscribe-blurred-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
   color: #ffffff;
 }
 
-.subscribtion-header {
+.subscription-header {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
 }
 
-.subscribtion-info {
+.subscription-info {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
 }
 
-.subscribtion-form {
+.subscription-form {
   text-align: center;
 }
 
