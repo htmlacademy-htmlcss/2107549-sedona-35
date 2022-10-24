@@ -86,8 +86,10 @@ body {
   text-decoration: none;
 }
 
-.main-container {
+.page-container {
   flex-grow: 1;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .main-inner-contents {
@@ -97,14 +99,11 @@ body {
   color: #ffffff;
 }
 
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .welcome-logo {
   display: block;
   margin: 0 auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .inner-header-title {
@@ -333,21 +332,15 @@ body {
   border-radius: 4px;
 }
 
-.want-here-button,
-.hotel-search-button {
+.want-here-button {
   text-decoration: none;
   background-color: #756157;
   color: white;
   border-radius: 4px;
+  font-size: 16px;
+  line-height: 20px;
   font-weight: 700;
-}
-
-.want-here-button {
-  padding: 8px 34px 8px 34px;
-}
-
-.hotel-search-button {
-  padding: 8px 50px 8px 50px;
+  padding: 8px 34px;
 }
 
 .background-image-sedona {
@@ -356,11 +349,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.description {
+  margin: 69px 250px 90px 250px;
+}
+
 .description-sedona {
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
   text-align: center;
+  margin: 0;
 }
 
 .description-reasons {
@@ -369,6 +367,8 @@ body {
   font-weight: 400;
   text-align: center;
   color: #333333;
+  margin-top: 25px;
+  margin-bottom: 0;
 }
 
 .advantages-list {
@@ -419,19 +419,35 @@ body {
 
 .hotel-search {
   text-align: center;
+  margin: 96px 304px 96px 304px;
 }
 
 .hotel-search-header {
   font-size: 30px;
   line-height: 36px;
+  margin: 0;
+  margin-bottom: 20px;
 }
 
 .hotel-search-contents {
   font-size: 22px;
   line-height: 26px;
+  margin: 0;
+  margin-bottom: 54px;
 }
 
-.subscription {
+.hotel-search-button {
+  text-decoration: none;
+  background-color: #756157;
+  color: white;
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  padding: 8px 50px;
+}
+
+.subscription-index {
   background-image: url("../images/subscribe-blurred-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -448,16 +464,6 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-}
-
-.subscription-catalog {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  padding: 0;
-  gap: 54px;
-  width: 684px;
 }
 
 .subscription-first-container {
