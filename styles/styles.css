@@ -30,8 +30,12 @@ body {
   background-color: #ffffff;
 }
 
-a {
-  text-decoration: none;
+.title {
+  text-transform: uppercase;
+}
+
+.list {
+  list-style: none;
 }
 
 .visually-hidden {
@@ -67,14 +71,6 @@ a {
 
 .navigation-item {
   font-weight: 700;
-}
-
-.title {
-  text-transform: uppercase;
-}
-
-.list {
-  list-style: none;
 }
 
 .navigation-link, .navigation-link-current {
