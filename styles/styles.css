@@ -254,36 +254,6 @@ a {
   border-radius: 4px;
 }
 
-.hotel-cards-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  gap: 20px;
-  width: 1060px;
-  height: 896px;
-}
-
-.cards-first-block {
-  display: flex;
-  flex-direction: row;
-  padding: 0;
-  gap: 20px;
-  width: 1060px;
-  height: 438px;
-}
-
-
-.cards-second-block {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0;
-  gap: 20px;
-  width: 1060px;
-  height: 438px;
-}
-
 .pagination-container {
   display: flex;
   flex-direction: row;
