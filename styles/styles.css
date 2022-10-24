@@ -109,20 +109,22 @@ body {
 }
 
 .inner-header-title {
-  display: inline;
+  display: block;
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
+  margin: 0;
+  padding: 30px 635px 0 70px;
 }
 
 .breadcrumbs {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 0;
+  padding-left: 70px;
+  padding-top: 0;
   gap: 10px;
   width: 114px;
-  height: 21px;
 }
 
 .breadcrumbs-link {
