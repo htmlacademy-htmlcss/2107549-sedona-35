@@ -356,7 +356,12 @@ body {
 }
 
 .description {
-  margin: 69px 250px 90px 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 69px;
+  padding-bottom: 90px;
 }
 
 .description-sedona {
@@ -365,6 +370,7 @@ body {
   line-height: 36px;
   text-align: center;
   margin: 0;
+  width: 652px;
 }
 
 .description-reasons {
@@ -375,6 +381,7 @@ body {
   color: #333333;
   margin-top: 25px;
   margin-bottom: 0;
+  width: 652px;
 }
 
 .advantages-list {
@@ -432,22 +439,29 @@ body {
 }
 
 .hotel-search {
-  text-align: center;
-  margin: 96px 304px 96px 304px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 96px 0;
 }
 
 .hotel-search-header {
   font-size: 30px;
   line-height: 36px;
-  margin-top: 0;
-  margin-bottom: 20px;
+  text-align: center;
+  width: 592px;
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 .hotel-search-contents {
   font-size: 22px;
   line-height: 26px;
-  margin-top: 0;
-  margin-bottom: 54px;
+  text-align: center;
+  width: 592px;
+  margin: 0;
+  padding-bottom: 54px;
 }
 
 .hotel-search-button {
@@ -459,6 +473,7 @@ body {
   line-height: 36px;
   font-weight: 700;
   padding: 12px 50px;
+  margin: 0;
 }
 
 .subscription-index {
