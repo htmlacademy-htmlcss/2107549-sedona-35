@@ -110,7 +110,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("../images/catalog-filter-blurred-background.jpg");
-  background-size: 1200px 512px;
+  background-size: 100% auto;
   background-repeat: no-repeat;
   color: #ffffff;
 }
