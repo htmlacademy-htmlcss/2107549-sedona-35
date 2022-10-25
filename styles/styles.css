@@ -30,6 +30,11 @@ body {
   background-color: #ffffff;
 }
 
+.page-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .title {
   text-transform: uppercase;
 }
@@ -52,7 +57,6 @@ body {
 .navigation {
   display: flex;
   margin: 0 auto;
-  width: 1200px;
   height: 64px;
 }
 
@@ -90,7 +94,6 @@ body {
 
 .page-container {
   flex-grow: 1;
-  width: 1200px;
   margin: 0 auto;
 }
 
@@ -239,7 +242,6 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: 40px;
-  width: 1200px;
 }
 
 .search-results {
@@ -527,7 +529,6 @@ body {
   align-items: center;
   padding: 0;
   gap: 40px;
-  width: 1200px;
   height: 120px;
   margin: 0 auto;
 }
