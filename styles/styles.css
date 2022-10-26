@@ -39,6 +39,10 @@ body {
   text-transform: uppercase;
 }
 
+.button {
+  text-transform: uppercase;
+}
+
 .list {
   list-style: none;
 }
