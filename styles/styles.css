@@ -211,7 +211,6 @@ body {
 .sort-line-items {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -227,10 +226,11 @@ body {
   padding-left: 70px;
 }
 
-.sortlist-container {
+.price-popularity-sort {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-left: 190px;
   gap: 70px;
   width: 1060px;
 }
@@ -251,6 +251,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding: 0;
+  margin-right: 70px;
   gap: 8px;
   width: 160px;
   height: 48px;
