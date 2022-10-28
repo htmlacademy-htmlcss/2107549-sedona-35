@@ -103,7 +103,7 @@ body {
   text-decoration: none;
 }
 
-.page-container {
+.main-container {
   flex-grow: 1;
   margin: 0 auto;
 }
@@ -115,7 +115,7 @@ body {
   padding-bottom: 82px;
 }
 
-.main-inner-contents {
+.catalog-main-contents {
   display: flex;
   flex-direction: column;
   background-image: url("../images/catalog-filter-blurred-background.jpg");
@@ -273,7 +273,7 @@ body {
   background-color: transparent;
 }
 
-.main-content-container {
+.sortlist-container {
   padding: 0 70px;
 }
 
@@ -594,9 +594,4 @@ body {
 .footer-social-list {
   display: flex;
   align-items: center;
-}
-
-.htmlacademy-link {
-  margin-left: auto;
-  max-width: 200px;
 }
