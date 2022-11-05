@@ -129,6 +129,7 @@ body {
 }
 
 .main-container {
+  position: relative;
   flex-grow: 1;
   margin: 0 auto;
 }
@@ -142,8 +143,7 @@ body {
 
 .divider {
   position: absolute;
-  bottom: 863px;
-  z-index: 1;
+  top: 428px;
   fill: white;
 }
 
