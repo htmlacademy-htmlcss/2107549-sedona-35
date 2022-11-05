@@ -290,6 +290,15 @@ body {
   background-color: #68a2ca;
 }
 
+.submit-button:focus {
+  background-color: #68a2ca;
+}
+
+.submit-button:focus-visible {
+  background-color: #68a2ca;
+  outline: none;
+}
+
 .submit-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -300,6 +309,14 @@ body {
 
 .reset-button:hover {
   color: rgba(255, 255, 255, 0.3);
+}
+
+.reset-button:focus {
+  outline: 3px solid #83b3d3;
+}
+
+.reset-button:focus-visible {
+  outline: 3px solid #83b3d3;
 }
 
 .reset-button:active {
@@ -329,6 +346,18 @@ body {
 
 .toggle:hover .toggle-stroke {
   stroke: black;
+}
+
+.toggle:focus {
+  outline: none;
+}
+
+.toggle:focus .toggle-stroke {
+  stroke: #68a2ca;
+}
+
+.toggle:focus-visible .toggle-stroke {
+  stroke: #68a2ca;
 }
 
 .toggle:active .toggle-stroke {
@@ -413,6 +442,15 @@ body {
   background-color: #615048;
 }
 
+.more-details-button:focus {
+  background-color: #615048;
+}
+
+.more-details-button:focus-visible {
+  background-color: #615048;
+  outline: none;
+}
+
 .more-details-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -426,6 +464,15 @@ body {
   background-color: #68a2ca;
 }
 
+.add-to-fav-button:focus {
+  background-color: #68a2ca;
+}
+
+.add-to-fav-button:focus-visible {
+  background-color: #68a2ca;
+  outline: none;
+}
+
 .add-to-fav-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -437,6 +484,15 @@ body {
 
 .added-to-fav-button:hover {
   background-color: #6c9e42;
+}
+
+.added-to-fav-button:focus {
+  background-color: #6c9e42;
+}
+
+.added-to-fav-button:focus-visible {
+  background-color: #6c9e42;
+  outline: none;
 }
 
 .added-to-fav-button:active {
@@ -501,6 +557,15 @@ body {
 
 .want-here-button:hover {
   background-color: #615048;
+}
+
+.want-here-button:focus {
+  background-color: #615048;
+}
+
+.want-here-button:focus-visible {
+  background-color: #615048;
+  outline: none;
 }
 
 .want-here-button:active {
@@ -678,6 +743,15 @@ body {
   background-color: #615048;
 }
 
+.hotel-search-button:focus {
+  background-color: #615048;
+}
+
+.hotel-search-button:focus-visible {
+  background-color: #615048;
+  outline: none;
+}
+
 .hotel-search-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -750,6 +824,15 @@ body {
   background-color: #68a2ca;
 }
 
+.newsletter-button:focus {
+  background-color: #68a2ca;
+}
+
+.newsletter-button:focus-visible {
+  background-color: #68a2ca;
+  outline: none;
+}
+
 .newsletter-button:active {
   color: rgba(255, 255, 255, 0.3);
 }
@@ -773,16 +856,24 @@ body {
 
 .social-icon {
   fill: #83b3d3;
+  outline: none;
 }
 
 .social-icon:hover {
   fill: #68a2ca;
 }
 
+.social-icon:focus {
+  fill: #68a2ca;
+}
+
+.social-icon:focus-visible {
+  fill: #68a2ca;
+}
+
 .social-icon:active {
   fill: rgba(104, 162, 202, 0.3);;
 }
-
 
 .social-icon-vk {
   padding-top: 11px;
@@ -814,6 +905,15 @@ body {
   color: #756157;
 }
 
+.footer-contacts-address-phone:focus {
+  color: #756157;
+}
+
+.footer-contacts-address-phone:focus-visible {
+  color: #756157;
+  outline: none;
+}
+
 .footer-contacts-address-phone:active {
   color: rgba(117, 97, 87, 0.3);
 }
@@ -823,8 +923,21 @@ body {
   align-items: center;
 }
 
+.htmlacademy-footer-logo {
+  outline: none;
+}
+
 .htmlacademy-footer-logo:hover {
   fill: #756157;
+}
+
+.htmlacademy-footer-logo:focus {
+  fill: #756157;
+}
+
+.htmlacademy-footer-logo:focus-visible {
+  fill: #756157;
+  outline: none;
 }
 
 .htmlacademy-footer-logo:active {
