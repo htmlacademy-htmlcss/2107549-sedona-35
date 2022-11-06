@@ -181,6 +181,25 @@ body {
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
+  text-decoration: none;
+  color: white;
+}
+
+.breadcrumbs-link:hover {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.breadcrumbs-link:focus {
+  color: white;
+}
+
+.breadcrumbs-link:focus-visible {
+  color: white;
+  outline: none;
+}
+
+.breadcrumbs-link:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .control {
@@ -836,7 +855,8 @@ body {
   height: 52px;
 }
 
-.field {
+.subscription-form input  {
+  font-family: "PT Sans";
   font-size: 18px;
   line-height: 24px;
   background-color: #f2f2f2;
@@ -844,6 +864,10 @@ body {
   border: none;
   border-top-left-radius: 4px;
   border-bottom-left-radius: 4px;
+}
+
+.subscription-form input:hover {
+  background-color: #e6e6e6;
 }
 
 .newsletter-button {
