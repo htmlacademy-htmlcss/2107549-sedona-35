@@ -363,6 +363,10 @@ body {
   gap: 8px;
 }
 
+.sortlist-toggle-current .toggle-stroke {
+  stroke: black;
+}
+
 .toggle:hover .toggle-stroke {
   stroke: black;
 }
