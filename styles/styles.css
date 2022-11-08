@@ -236,9 +236,10 @@ body {
   position: relative;
   top: 11px;
   right: 180px;
-  display: flex;
   width: 140px;
+  display: flex;
   justify-content: space-between;
+  text-align: center;
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
@@ -319,18 +320,22 @@ body {
 
 .range-toggle:hover {
   background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-toggle:focus {
   outline: 3px solid #83B3D3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-toggle:focus-visible {
   outline: 3px solid #83B3D3;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
 }
 
 .range-toggle:active {
   outline: 2px solid #83B3D3;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
 }
 
 .toggle-min {
