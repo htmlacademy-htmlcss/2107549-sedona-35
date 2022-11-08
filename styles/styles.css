@@ -204,17 +204,72 @@ body {
 }
 
 .control {
+  position: relative;
+  display: block;
+  padding-left: 36px;
   font-size: 18px;
   line-height: 23px;
+}
+
+.control-mark {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.control:hover .control-mark {
+  background-color:  rgba(255, 255, 255, 0.6);
+}
+
+.control .control-mark:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.control .control-mark:focus-visible {
+  outline: 3px solid #83B3D3;
+}
+
+.control:active .control-mark {
+  background-color:  rgba(255, 255, 255, 0.3);
+}
+
+.control-input[type="checkbox"]:checked + .control-mark::before,
+.control-input[type="checkbox"]:checked + .control-mark::after {
+  position: absolute;
+  width: 14px;
+  height: 10px;
+  left: 4px;
+  top: 5px;
+  background-image: url("../images/checkbox-tick-icon.svg");
+  background-repeat: no-repeat;
+  content: "";
+}
+
+.control-input[type="radio"] + .control-mark {
+  border-radius: 50%;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3f5e72;
+  content: "";
 }
 
 .catalog-filter {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: flex-start;
   padding: 0 70px 70px;
-  gap: 100px;
 }
 
 .catalog-filter-group {
@@ -379,26 +434,29 @@ body {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
+  margin-left: 140px;
   gap: 32px;
   width: 288px;
-  height: 160px;
 }
 
 .filter-submit-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 56px;
+  margin-left: 70px;
   padding: 0;
   gap: 32px;
   width: 191px;
-  height: 104px;
 }
 
 .sort-line-items {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  margin-top: 50px;
 }
 
 .search-results {
@@ -406,15 +464,6 @@ body {
   line-height: 36px;
   font-weight: 700;
   color: #000000;
-}
-
-.price-popularity-sort {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-left: 190px;
-  gap: 70px;
-  width: 1060px;
 }
 
 .submit-button,
@@ -472,10 +521,32 @@ body {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  color: #333333;
+  width: 292px;
   border: 2px solid #e5e5e5;
-  padding: 14px 23px;
   border-radius: 4px;
+  padding: 14px 20px;
+  margin-left: 130px;
+  background-image: url("../images/select-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  appearance: none;
+}
+
+.select-control:hover {
+  border: 2px solid #68a2ca;
+}
+
+.select-control:focus {
+  border: 2px solid #68a2ca;
+}
+
+.select-control:focus-visible {
+  border: 2px solid #68a2ca;
+  outline: none;
+}
+
+.select-control:active {
+  border: 2px solid #3f5e72;
 }
 
 .sortlist-container {
