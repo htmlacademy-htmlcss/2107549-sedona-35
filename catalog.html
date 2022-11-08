@@ -109,10 +109,23 @@
                 <div class="filter-price-container">
                   <fieldset class="catalog-filter-group">
                     <legend class="catalog-filter-title">Стоимость, ₽:</legend>
-                      <div class="filter">
-                        <label class="filter-label"><input type="text" class="filter-input"></label>
-                        <label class="filter-label"><input type="text" class="filter-input"></label>
-                        <div id="slider-price" class="filter-slider-price" data-min="0" data-max="10000" data-step="1"></div>
+                      <div class="price-filter">
+                        <label class="filter-label"></label><input value="0" type="number" class="range-input"></label>
+                        <label class="filter-label"><input value="9000" type="number" class="range-input"></label>
+                        <span class="price-range price-range-from">от</span>
+                        <span class="price-range price-range-to">до</span>
+                      </div>
+                      <div class="range">
+                        <div class="range-scale">
+                          <div class="range-bar">
+                            <button class="range-toggle toggle-min">
+                              <span class="visually-hidden">Изменить минимальную цену.</span>
+                            </button>
+                            <button class="range-toggle toggle-max">
+                              <span class="visually-hidden">Изменить максимальную цену.</span>
+                            </button>
+                          </div>
+                        </div>
                       </div>
                   </fieldset>
                 </div>

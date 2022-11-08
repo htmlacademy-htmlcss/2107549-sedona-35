@@ -33,6 +33,7 @@ body {
 .page-wrapper {
   width: 1200px;
   margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 .title {
@@ -209,9 +210,11 @@ body {
 
 .catalog-filter {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
   padding: 0 70px 70px;
-  gap: 167px;
+  gap: 100px;
 }
 
 .catalog-filter-group {
@@ -221,6 +224,123 @@ body {
   border: none;
   padding: 0;
   margin: 0;
+}
+
+.price-filter {
+  display: flex;
+  flex-direction: row;
+  padding-top: 32px;
+}
+
+.price-range {
+  position: relative;
+  top: 11px;
+  right: 180px;
+  display: flex;
+  width: 140px;
+  justify-content: space-between;
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  z-index: 1;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.range-scale {
+  position: relative;
+  top: 44px;
+  width: 287px;
+  height: 4px;
+  margin-bottom: 16px;
+  background-color: rgba(255,255,255, 0.3);
+  border: none;
+}
+
+.range-input {
+  width: 102px;
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 12px 20px;
+  margin: 0 1px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+.range-input:nth-child(1) {
+  border-radius: 0 4px 4px 0;
+}
+
+.range-input:nth-child(2) {
+  border-radius: 4px 0 0 4px;
+}
+
+.range-input:hover {
+  background-color: #e6e6e6;
+}
+
+.range-input:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.range-input:focus-visible {
+  outline: none;
+}
+
+.range-input:active {
+  outline: 2px solid #000000;
+}
+
+.range-input::-webkit-outer-spin-button,
+.range-input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.range-bar {
+  position: absolute;
+  width: 226px;
+  height: 4px;
+  background-color: white;
+}
+
+.range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.range-toggle:hover {
+  background-color: white;
+}
+
+.range-toggle:focus {
+  outline: 3px solid #83B3D3;
+}
+
+.range-toggle:focus-visible {
+  outline: 3px solid #83B3D3;
+}
+
+.range-toggle:active {
+  outline: 2px solid #83B3D3;
+}
+
+.toggle-min {
+  top: -8px;
+  left: 0;
+}
+
+.toggle-max {
+  top: -8px;
+  right: 0;
 }
 
 .catalog-filter-list {
