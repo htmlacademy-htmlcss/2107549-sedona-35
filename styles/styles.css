@@ -1240,11 +1240,6 @@ body {
   z-index: 1;
 }
 
-.modal-container {
-  display: none; /* скрывает модальное окно и overlay */
-}
-
-
 .modal {
   position: relative;
   margin: auto;
@@ -1482,10 +1477,8 @@ input::-webkit-inner-spin-button {
 
 .tooltip {
   position: absolute;
-  margin-top: 4px;
+  margin-top: 1px;
   margin-left: 2px;
-  width: 16px;
-  height: 16px;
   transform: translateX(7px);
 }
 
@@ -1512,7 +1505,7 @@ input::-webkit-inner-spin-button {
   width: 216px;
   position: absolute;
   margin-bottom: 6px;
-  transform: translateX(-118px) translateY(15px);
+  transform: translateX(-116px) translateY(15px);
   background-color: #333333;
   color: #ffffff;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
@@ -1579,4 +1572,8 @@ input::-webkit-inner-spin-button {
 
 .minus-icon:active {
   fill: rgba(117, 97, 87, 0.3);
-};
+}
+
+.modal-container {
+  display: none; /* скрывает модальное окно и overlay */
+}
