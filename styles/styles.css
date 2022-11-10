@@ -93,9 +93,9 @@ body {
   position: relative;
   display: block;
   padding-top: 20px;
-  padding-right: 16px;
+  padding-right: 18px;
   padding-bottom: 20px;
-  padding-left: 16px;
+  padding-left: 14px;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
@@ -104,9 +104,9 @@ body {
 
 .navigation-link-current::before {
   position: absolute;
-  right: 15px;
-  bottom: 0;
-  left: 15px;
+  right: 18px;
+  bottom: -1px;
+  left: 14px;
   height: 2px;
   background-color: #756257;
   content: "";
@@ -115,10 +115,14 @@ body {
 .navigation-icon {
   position: absolute;
   top: 0;
-  right: 0;
+  right: 20px;
   bottom: 0;
   left: 0;
   margin: auto;
+}
+
+.navigation-search-icon {
+  right: -3px;
 }
 
 .notifications-icon-container {
@@ -130,8 +134,8 @@ body {
   font-size: 10px;
   line-height: 10px;
   position: absolute;
-  top: 0;
-  right: -3px;
+  top: -1px;
+  right: 5px;
   background-color: #7db54f;
   display: flex;
   width: 20px;
@@ -907,7 +911,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 60px;
+  gap: 62px;
   padding: 103px 85px 121px 85px;
 }
 
@@ -916,8 +920,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 60px;
-  padding: 0 85px;
+  gap: 62px;
+  padding: 0 87px 5px 83px;
 }
 
 .avantages-cards-content-w-icons {
@@ -927,6 +931,10 @@ body {
   align-items: center;
   gap: 30px;
   padding: 80px 85px 81px 85px;
+}
+
+.avantages-cards-content-with-photo .advantages-description {
+  margin-bottom: 15px;
 }
 
 .advantages-title {
@@ -952,8 +960,8 @@ body {
 .avantages-cards-content .advantages-title::before {
   position: absolute;
   right: 58px;
-  bottom: -30px;
-  left: 58px;
+  bottom: -32px;
+  left: 57px;
   height: 2px;
   background-color: rgba(0, 0, 0, 0.3);
   content: "";
@@ -1088,6 +1096,18 @@ body {
 
 .subscription-form input:hover {
   background-color: #e6e6e6;
+}
+
+.subscription-form input:focus {
+  outline: 3px solid #83b3d3;
+}
+
+.subscription-form input:focus-visible {
+  outline: 3px solid #83b3d3;
+}
+
+.subscription-form input:active {
+  outline: 2px solid #000000;
 }
 
 .newsletter-button {
