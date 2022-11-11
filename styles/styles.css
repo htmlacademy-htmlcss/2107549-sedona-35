@@ -498,6 +498,7 @@ body {
   line-height: 20px;
   font-weight: 700;
   padding: 8px 50px 8px 50px;
+  cursor: pointer;
 }
 
 .submit-button {
@@ -523,6 +524,7 @@ body {
 
 .reset-button {
   background-color: transparent;
+  cursor: pointer;
 }
 
 .reset-button:hover {
@@ -554,6 +556,7 @@ body {
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: 93%;
+  cursor: pointer;
   appearance: none;
 }
 
