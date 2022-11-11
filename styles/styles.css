@@ -1560,21 +1560,22 @@ input::-webkit-inner-spin-button {
   fill: rgba(117, 97, 87, 0.3);
 }
 
-.plus-icon:hover {
+.plus-button:hover .plus-icon {
   fill: #000000;
 }
 
-.plus-icon:focus {
+.plus-button:focus-visible {
+  outline: none;
+}
+
+.plus-button:focus-visible .plus-icon {
   fill: #000000;
   outline: 3px solid #82b3d3;
+  border-radius: 4px;
+  padding: 3px;
 }
 
-.plus-icon:focus-visible {
-  fill: #000000;
-  outline: 3px solid #82b3d3;
-}
-
-.plus-icon:active {
+.plus-button:active .plus-icon {
   fill: rgba(117, 97, 87, 0.3);
 }
 
@@ -1582,21 +1583,22 @@ input::-webkit-inner-spin-button {
   fill: rgba(117, 97, 87, 0.3);
 }
 
-.minus-icon:hover {
+.minus-button:hover .minus-icon {
   fill: #000000;
 }
 
-.minus-icon:focus {
+.minus-button:focus-visible {
+  outline: none;
+}
+
+.minus-button:focus-visible .minus-icon {
   fill: #000000;
   outline: 3px solid #82b3d3;
+  border-radius: 4px;
+  padding: 5px 3px;
 }
 
-.minus-icon:focus-visible {
-  fill: #000000;
-  outline: 3px solid #82b3d3;
-}
-
-.minus-icon:active {
+.minus-button:active .minus-icon {
   fill: rgba(117, 97, 87, 0.3);
 }
 
