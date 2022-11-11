@@ -1355,14 +1355,14 @@ body {
   display: none;
 }
 
-.date-error-message {
-  position: absolute;
-  transform: translateX(157px) translateY(52px);
-  font-family: 'PT Sans';
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 21px;
-  color: #ff5757;
+.field-group {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
 .date-message {
@@ -1375,14 +1375,10 @@ body {
   color: #333333;
 }
 
-.field-group {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0;
+.date-error-message {
+  position: absolute;
+  transform: translateX(157px) translateY(52px);
+  color: #ff5757;
 }
 
 .arrival-and-departure-date {
@@ -1406,7 +1402,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 44px;
+  justify-content: space-between;
 }
 
 .adult-wrap {
@@ -1414,21 +1410,27 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 46px;
 }
 
 .children-wrap {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 74px;
 }
 
 .custom-number-input {
   display: flex;
 }
 
-.custom-number-input input[type="number"] {
+.adult-quantity {
+  padding-left: 47px;
+}
+
+.children-quantity {
+  padding-left: 76px;
+}
+
+.number-of-people {
   font-family: 'PT Sans';
   font-weight: 700;
   font-size: 18px;
@@ -1603,5 +1605,5 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-container {
-  display: none; /* скрывает модальное окно и overlay */
+  /*display: none; /* скрывает модальное окно и overlay */
 }

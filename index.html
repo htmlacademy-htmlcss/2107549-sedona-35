@@ -180,12 +180,12 @@
 
       <div class="modal-container">
         <div class="modal modal-hotel-search">
-            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+          <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
           <button class="modal-close-button" type="button">
             <span class="visually-hidden">Закрыть</span>
           </button>
           <form class="hotel-booking-form" action="https://echo.htmlacademy.ru/" method="post">
-            <p class="field-group">
+            <div class="field-group">
               <label class="arrival-and-departure-date">Дата Заезда:</label>
               <input type="text" value="27 апреля 2020">
               <svg class="calendar-icon" aria-hidden="true" focusable="false" width="16" height="15" viewBox="0 0 16 15">
@@ -201,9 +201,9 @@
                 <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" fill="black"/>
                 <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" fill="black"/>
                 </svg>
-            </p>
-            <span class="date-error-message">Мы не можем отправить вас в прошлое.</span>
-            <p class="field-group">
+            </div>
+            <span class="data-message date-error-message">Мы не можем отправить вас в прошлое.</span>
+            <div class="field-group">
               <label class="arrival-and-departure-date">Дата Выезда:</label>
               <input type="text" value="1 сентября 2023">
               <svg class="calendar-icon" aria-hidden="true" focusable="false" width="16" height="15" viewBox="0 0 16 15">
@@ -219,19 +219,19 @@
                 <path d="M12.5 10C12.8 10 13 9.8 13 9.5C13 9.2 12.8 9 12.5 9C12.2 9 12 9.2 12 9.5C12 9.8 12.2 10 12.5 10Z" fill="black"/>
                 <path d="M12.5 11C12.2 11 12 11.2 12 11.5C12 11.8 12.2 12 12.5 12C12.8 12 13 11.8 13 11.5C13 11.2 12.8 11 12.5 11Z" fill="black"/>
                 </svg>
-            </p>
+            </div>
             <span class="date-message">На эти даты есть свободные номера. Пока есть.</span>
             <div class="people-amount-wrap">
               <div class="adult-wrap">
                 <p class="people-amount">
                   <label class="arrival-and-departure-date">Взрослые:</label>
-                  <div class="custom-number-input">
+                  <div class="custom-number-input adult-quantity">
                     <button class="minus-button" data-action="decrement" type="button">
                       <svg class="minus-icon" aria-hidden="true" focusable="false" width="14" height="10" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0L0 2L14 2V0L0 0Z"/>
                         </svg>
                     </button>
-                    <input type="number" name="custom-input-number" value="2"></input>
+                    <input class="number-of-people" type="number" name="custom-input-number" value="2"></input>
                     <button class="plus-button" data-action="increment" type="button">
                       <svg class="plus-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"/>
@@ -255,13 +255,13 @@
                       </span>
                     </label>
                   </span>
-                  <div class="custom-number-input">
+                  <div class="custom-number-input children-quantity">
                     <button class="minus-button" data-action="decrement" type="button">
                       <svg class="minus-icon" aria-hidden="true" focusable="false" width="14" height="10" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0L0 2L14 2V0L0 0Z"/>
                         </svg>
                     </button>
-                    <input type="number" name="custom-input-number" value="2"></input>
+                    <input class="number-of-people" type="number" name="custom-input-number" value="2"></input>
                     <button class="plus-button" data-action="increment" type="button">
                       <svg class="plus-icon" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
                         <path d="M14 6H8V0H6V6H0V8H6V14H8V8H14V6Z"/>
