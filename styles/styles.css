@@ -46,6 +46,7 @@ body {
   border-radius: 4px;
   text-transform: uppercase;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .list {
@@ -499,7 +500,6 @@ body {
   line-height: 20px;
   font-weight: 700;
   padding: 8px 50px 8px 50px;
-  cursor: pointer;
 }
 
 .submit-button {
@@ -525,7 +525,6 @@ body {
 
 .reset-button {
   background-color: transparent;
-  cursor: pointer;
 }
 
 .reset-button:hover {
@@ -1246,24 +1245,24 @@ body {
   align-items: center;
 }
 
-.htmlacademy-footer-logo {
+.htmlacademy-link {
   outline: none;
 }
 
-.htmlacademy-footer-logo:hover {
+.htmlacademy-link:hover {
   fill: #756157;
 }
 
-.htmlacademy-footer-logo:focus {
+.htmlacademy-link:focus {
   fill: #756157;
 }
 
-.htmlacademy-footer-logo:focus-visible {
+.htmlacademy-link:focus-visible {
   fill: #756157;
   outline: none;
 }
 
-.htmlacademy-footer-logo:active {
+.htmlacademy-link:active {
   fill: rgba(117, 97, 87, 0.3);
 }
 
