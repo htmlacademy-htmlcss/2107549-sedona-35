@@ -252,11 +252,11 @@ body {
   background-color:  rgba(255, 255, 255, 0.6);
 }
 
-.control .control-mark:focus {
+.control-input:focus + .control-mark {
   outline: 3px solid #83B3D3;
 }
 
-.control .control-mark:focus-visible {
+.control-input:focus-visible + .control-mark {
   outline: 3px solid #83B3D3;
 }
 
@@ -264,7 +264,6 @@ body {
   background-color:  rgba(255, 255, 255, 0.3);
 }
 
-.control-input[type="checkbox"]:checked + .control-mark::before,
 .control-input[type="checkbox"]:checked + .control-mark::after {
   position: absolute;
   width: 14px;
