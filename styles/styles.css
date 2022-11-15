@@ -309,24 +309,26 @@ body {
 }
 
 .price-filter {
+  position: relative;
   display: flex;
   flex-direction: row;
   padding-top: 32px;
 }
 
-.price-range {
-  position: relative;
-  top: 11px;
-  right: 180px;
-  width: 140px;
-  display: flex;
-  text-align: center;
-  font-family: 'PT Sans';
-  font-weight: 400;
+.filter-label {
+  position: absolute;
   font-size: 18px;
   line-height: 24px;
-  z-index: 1;
+  top: 43px;
   color: rgba(0, 0, 0, 0.3);
+}
+
+.filter-label-from {
+  right: 165px;
+}
+
+.filter-label-to {
+  right: 20px;
 }
 
 .range-scale {
@@ -351,12 +353,12 @@ body {
   background-color: #f2f2f2;
 }
 
-.range-input:nth-child(1) {
-  border-radius: 0 4px 4px 0;
+.range-input-from {
+  border-radius: 4px 0 0 4px;
 }
 
-.range-input:nth-child(2) {
-  border-radius: 4px 0 0 4px;
+.range-input-to {
+  border-radius: 0 4px 4px 0;
 }
 
 .range-input:hover {
