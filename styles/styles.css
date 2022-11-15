@@ -178,7 +178,7 @@ body {
 .catalog-main-contents {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/catalog-filter-blurred-background.jpg");
+  background-image: url("../images/catalog-filter-blurred-background.jpeg");
   background-repeat: no-repeat;
   color: #ffffff;
 }
