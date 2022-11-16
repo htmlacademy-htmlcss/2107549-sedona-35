@@ -73,7 +73,6 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  height: 64px;
 }
 
 .navigation-list {
@@ -88,7 +87,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 70px;
+  margin: 0 70px 10px 70px;
   padding: 0;
   gap: 20px;
 }
@@ -163,6 +162,7 @@ body {
   position: relative;
   flex-grow: 1;
   margin: 0 auto;
+  top: -10px;
 }
 
 .welcome-logo {
@@ -774,7 +774,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   gap: 8px;
-  padding: 42px 0 40px 0;
+  padding: 39px 0 40px 0;
 }
 
 .pagination-item a {
@@ -1113,7 +1113,7 @@ body {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
-  padding-bottom: 119px;
+  padding-bottom: 103px;
   width: 684px;
   height: 52px;
 }
@@ -1185,7 +1185,7 @@ body {
   align-items: center;
   margin-left: 81px;
   margin-right: 70px;
-  padding-top: 29px;
+  padding-top: 35px;
   padding-bottom: 25px;
 }
 
