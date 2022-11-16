@@ -156,12 +156,6 @@ body {
   margin-left: 30px;
 }
 
-.main-container {
-  position: relative;
-  flex-grow: 1;
-  margin: 0 auto;
-}
-
 .welcome-logo {
   display: block;
   margin: 0 auto;
