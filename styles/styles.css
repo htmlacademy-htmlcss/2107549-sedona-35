@@ -677,6 +677,33 @@ body {
   padding: 0;
 }
 
+.rating-stars {
+  height: 18px;
+  background-image: url('../images/star.svg');
+  background-repeat: space;
+  background-size: 19px;
+}
+
+.rating-stars-1 {
+  width: 23px;
+}
+
+.rating-stars-2 {
+  width: 46px;
+}
+
+.rating-stars-3 {
+  width: 69px;
+}
+
+.rating-stars-4 {
+  width: 92px;
+}
+
+.rating-stars-5 {
+  width: 115px;
+}
+
 .item-rating {
   display: flex;
   flex-direction: row;
