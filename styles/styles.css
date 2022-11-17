@@ -181,7 +181,7 @@ body {
 .catalog-main-contents {
   display: flex;
   flex-direction: column;
-  background-color: #000000;
+  background-color: #334d5e;
   background-image: url("../images/catalog-filter-blurred-background.jpeg");
   background-repeat: no-repeat;
   color: #ffffff;
@@ -875,7 +875,7 @@ body {
 }
 
 .background-image-sedona {
-  background-color: #000000;
+  background-color: #334d5e;
   background-image: url("../images/index-page-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -1073,7 +1073,7 @@ body {
 }
 
 .subscription-index {
-  background-color: #000000;
+  background-color: #334d5e;
   background-image: url("../images/subscribe-blurred-background.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
