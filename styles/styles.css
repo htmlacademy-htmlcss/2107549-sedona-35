@@ -27,13 +27,14 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: #000000;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
 }
 
 .page-wrapper {
   width: 1200px;
   margin: 0 auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
 }
 
 .title {
@@ -888,6 +889,7 @@ body {
   align-items: center;
   padding-top: 69px;
   padding-bottom: 90px;
+  background-color: #ffffff;
 }
 
 .description-sedona {
@@ -1075,8 +1077,7 @@ body {
 .subscription-index {
   background-color: #334d5e;
   background-image: url("../images/subscribe-blurred-background.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
 }
 
