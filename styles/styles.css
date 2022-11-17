@@ -134,7 +134,7 @@ body {
 }
 
 .notifications-count {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 10px;
   line-height: 10px;
   position: absolute;
@@ -348,7 +348,7 @@ body {
 
 .range-input {
   width: 102px;
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -500,7 +500,7 @@ body {
 
 .submit-button,
 .reset-button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -550,7 +550,7 @@ body {
 }
 
 .select-control {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
@@ -1120,7 +1120,7 @@ body {
 }
 
 .subscription-form input  {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   background-color: #f2f2f2;
@@ -1147,7 +1147,7 @@ body {
 }
 
 .newsletter-button {
-  font-family: "PT Sans";
+  font-family: "PT Sans", sans-serif;
   text-transform: uppercase;
   border: none;
   background-color: #82b3d3;
@@ -1358,7 +1358,7 @@ body {
 
 .modal input[type="text"] {
   position: relative;
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -1402,7 +1402,7 @@ body {
 .date-message {
   position: absolute;
   transform: translateX(157px) translateY(148px);
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21px;
@@ -1416,7 +1416,7 @@ body {
 }
 
 .arrival-and-departure-date {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -1465,7 +1465,7 @@ body {
 }
 
 .number-of-people {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
@@ -1512,7 +1512,7 @@ input::-webkit-inner-spin-button {
 }
 
 .find-booking-button {
-  font-family: 'PT Sans';
+  font-family: "PT Sans", sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
