@@ -210,6 +210,14 @@ body {
   gap: 10px;
 }
 
+.breadcrumbs-arrow {
+  background-image: url('../images/arrow-icon.svg');
+  background-repeat: no-repeat;
+  height: 11px;
+  width: 8px;
+  margin-top: 5px;
+}
+
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
