@@ -1700,5 +1700,5 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-container {
-  isplay: none; /* скрывает модальное окно и overlay */
+  display: none; /* скрывает модальное окно и overlay */
 }
