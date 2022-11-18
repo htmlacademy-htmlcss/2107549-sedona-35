@@ -182,27 +182,27 @@
           <form class="hotel-booking-form" action="https://echo.htmlacademy.ru/" method="post">
             <div class="field-group">
               <label class="arrival-and-departure-date" for="arrival-date">Дата Заезда:</label>
-              <input type="text" value="27 апреля 2020" id="arrival-date">
+              <input type="text" value="27 апреля 2020" id="arrival-date" required>
               <div class="calendar-icon"></div>
             </div>
             <span class="data-message date-error-message">Мы не можем отправить вас в прошлое.</span>
             <div class="field-group">
               <label class="arrival-and-departure-date" for="departure-date">Дата Выезда:</label>
-              <input type="text" value="1 сентября 2023" id="departure-date">
+              <input type="text" value="1 сентября 2023" id="departure-date" required>
               <div class="calendar-icon"></div>
             </div>
             <span class="date-message">На эти даты есть свободные номера. Пока есть.</span>
             <div class="people-amount-wrap">
               <div class="adult-wrap">
                 <div class="people-amount">
-                  <label class="arrival-and-departure-date">Взрослые:</label>
+                  <label class="arrival-and-departure-date" for="number-of-adults">Взрослые:</label>
                   <div class="custom-number-input adult-quantity">
                     <button class="minus-button" data-action="decrement" type="button">
                       <svg class="minus-icon" aria-hidden="true" focusable="false" width="14" height="10" viewBox="0 0 14 2" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M0 0L0 2L14 2V0L0 0Z"/>
                         </svg>
                     </button>
-                    <label for="number-of-adults"></label>
+                    <label></label>
                     <input class="number-of-people" type="number" name="custom-input-number" id="number-of-adults" value="2">
                     <button class="plus-button" data-action="increment" type="button">
                       <svg class="plus-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -215,7 +215,7 @@
               <div class="children-wrap">
                 <div class="people-amount">
                   <span class="arrival-and-departure-date">
-                    <label class="arrival-and-departure-date">Дети:
+                    <label class="arrival-and-departure-date" for="number-of-children">Дети:
                       <span class="tooltip">
                         <button class="tooltip-toggle" type="button">
                           <svg class="tooltip-icon" aria-hidden="true" focusable="false" width="25" height="25" viewBox="0 0 26 26" fill="none">
@@ -234,7 +234,6 @@
                       <path d="M0 0L0 2L14 2V0L0 0Z"/>
                       </svg>
                   </button>
-                  <label for="number-of-children"></label>
                   <input class="number-of-people" type="number" name="custom-input-number" id="number-of-children" value="2">
                   <button class="plus-button" data-action="increment" type="button">
                     <svg class="plus-icon" aria-hidden="true" focusable="false" width="14" height="14" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg">
