@@ -174,9 +174,12 @@ body {
 }
 
 .divider {
+  background-image: url("/images/divider.svg");
+  background-repeat: no-repeat;
+  height: 57px;
+  width: 1200px;
   position: absolute;
   top: 428px;
-  fill: white;
 }
 
 .catalog-main-contents {
@@ -211,7 +214,7 @@ body {
 }
 
 .breadcrumbs-arrow {
-  background-image: url('../images/arrow-icon.svg');
+  background-image: url("../images/arrow-icon.svg");
   background-repeat: no-repeat;
   height: 11px;
   width: 8px;
@@ -687,7 +690,7 @@ body {
 
 .rating-stars {
   height: 18px;
-  background-image: url('../images/star.svg');
+  background-image: url("../images/star.svg");
   background-repeat: space;
   background-size: 19px;
 }
@@ -990,21 +993,21 @@ body {
 }
 
 .advantages-home-icon {
-  background-image: url('/images/adv-icons/home-icon.svg');
+  background-image: url("/images/adv-icons/home-icon.svg");
   background-repeat: no-repeat;
   height: 73px;
   width: 76px;
 }
 
 .advantages-food-icon {
-  background-image: url('/images/adv-icons/food-icon.svg');
+  background-image: url("/images/adv-icons/food-icon.svg");
   background-repeat: no-repeat;
   height: 75px;
   width: 75px;
 }
 
 .advantages-gift-icon {
-  background-image: url('/images/adv-icons/gift-icon.svg');
+  background-image: url("/images/adv-icons/gift-icon.svg");
   background-repeat: no-repeat;
   height: 76px;
   width: 65px;
@@ -1479,7 +1482,7 @@ body {
 }
 
 .calendar-icon {
-  background-image: url('/images/calendar-icon.svg');
+  background-image: url("/images/calendar-icon.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 15px;

@@ -130,10 +130,10 @@
                 <fieldset class="catalog-filter-group">
                   <legend class="catalog-filter-title">Стоимость, ₽:</legend>
                     <div class="price-filter">
-                      <input class="range-input range-input-from" name="price" value="0" type="number">
-                      <label class="filter-label filter-label-from">от</label>
-                      <input class="range-input range-input-to" name="price" value="9000" type="number">
-                      <label class="filter-label filter-label-to">до</label>
+                      <input class="range-input range-input-from" id="price-from" name="price" value="0" type="number">
+                      <label class="filter-label filter-label-from" for="price-from">от</label>
+                      <input class="range-input range-input-to" id="price-to" name="price" value="9000" type="number">
+                      <label class="filter-label filter-label-to" for="price-to">до</label>
                     </div>
                     <div class="range-scale">
                       <div class="range-bar">
@@ -334,7 +334,9 @@
             <p class="subscription-info">Только полезная информация и никакого спама, честное бойскаутское!</p>
           </div>
             <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
-              <input placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+              <label>
+                <input placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+              </label>
               <button class="newsletter-button" type="submit">Подписаться</button>
             </form>
         </section>
