@@ -1479,9 +1479,13 @@ body {
 }
 
 .calendar-icon {
+  background-image: url('/images/calendar-icon.svg');
+  background-repeat: no-repeat;
   position: absolute;
-  top: 17px;
+  top: 15px;
   right: 22px;
+  height: 18px;
+  width: 19px;
 }
 
 .calendar-icon path {
@@ -1696,5 +1700,5 @@ input::-webkit-inner-spin-button {
 }
 
 .modal-container {
-  display: none; /* скрывает модальное окно и overlay */
+  isplay: none; /* скрывает модальное окно и overlay */
 }
