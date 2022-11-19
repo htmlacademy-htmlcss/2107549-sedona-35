@@ -228,23 +228,6 @@ body {
   color: white;
 }
 
-.breadcrumbs-link:hover {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.breadcrumbs-link:focus {
-  color: white;
-}
-
-.breadcrumbs-link:focus-visible {
-  color: white;
-  outline: none;
-}
-
-.breadcrumbs-link:active {
-  color: rgba(255, 255, 255, 0.3);
-}
-
 .control {
   position: relative;
   display: block;
