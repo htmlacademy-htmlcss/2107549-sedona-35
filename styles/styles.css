@@ -74,6 +74,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  font-weight: 700;
 }
 
 .navigation-list {
