@@ -109,9 +109,9 @@ body {
 
 .navigation-link-current::before {
   position: absolute;
-  right: 18px;
+  right: 16px;
   bottom: -1px;
-  left: 14px;
+  left: 15px;
   height: 2px;
   background-color: #756257;
   content: "";
@@ -188,24 +188,20 @@ body {
   color: #ffffff;
 }
 
-.catalog-header-container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 35px 70px 40px 70px;
-}
-
 .inner-header-title {
   font-size: 60px;
   line-height: 78px;
   font-weight: 700;
   margin: 0;
+  padding-left: 70px;
+  padding-top: 35px;
 }
 
 .breadcrumbs {
   display: flex;
   flex-direction: row;
   margin-top: 8px;
+  margin-left: 70px;
   padding: 0;
   gap: 10px;
 }
@@ -292,7 +288,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   padding: 0 70px 68px;
-  margin: 0;
+  margin-top: 40px;
 }
 
 .catalog-filter-group {
@@ -302,6 +298,10 @@ body {
   border: none;
   padding: 0;
   margin: 0;
+}
+
+.type-of-accommodation-filter-group {
+  margin-left: 63px;
 }
 
 .price-filter {
@@ -442,23 +442,12 @@ body {
   font-weight: 700;
 }
 
-.filter-type-container {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 0;
-  gap: 63px;
-  width: 371px;
-  height: 157px;
-}
-
-.filter-price-container {
+.price-filter-group {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  margin-left: 140px;
-  gap: 32px;
+  margin-left: 133px;
   width: 288px;
 }
 
@@ -659,13 +648,12 @@ body {
   color: #333333;
 }
 
-.hotel-details-buttons-container {
-  display: flex;
-  flex-direction: row;
+.hotel-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 16px;
   align-items: center;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
 }
 
 .rating-stars {
@@ -693,15 +681,6 @@ body {
 
 .rating-stars-5 {
   width: 115px;
-}
-
-.item-rating {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0;
-  padding: 0;
 }
 
 .more-details-button,
@@ -793,7 +772,7 @@ body {
   flex-direction: row;
   align-items: flex-start;
   gap: 8px;
-  padding: 39px 0 40px 0;
+  padding: 42px 0 40px 0;
 }
 
 .pagination-item a {
@@ -1120,39 +1099,34 @@ body {
   color: #ffffff;
 }
 
-.subscription-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-top: 96px;
-  margin: 0 362px;
-  padding-bottom: 33px;
-}
-
-.subscription-catalog .subscription-description {
-  padding-top: 116px;
-}
-
 .subscription-header {
   font-size: 30px;
   line-height: 36px;
   text-align: center;
-  margin-bottom: 0;
-  margin-top: 0;
+  margin: 0;
+  padding-top: 96px;
+}
+
+.subscription-header-catalog {
+  padding-top: 116px;
 }
 
 .subscription-info {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 475px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 .subscription-form {
   display: flex;
   flex-direction: row;
   margin: 0 auto;
+  padding-top: 55px;
   padding-bottom: 103px;
   width: 684px;
   height: 52px;
