@@ -107,6 +107,14 @@ body {
   text-decoration: none;
 }
 
+.navigation-link:hover {
+  color: #4b4b4b;
+}
+
+.navigation-link:active {
+  color: #7b7b7b;
+}
+
 .navigation-link-current::before {
   position: absolute;
   right: 16px;
@@ -502,7 +510,6 @@ body {
 
 .submit-button:focus-visible {
   background-color: #68a2ca;
-  outline: none;
 }
 
 .submit-button:active {
@@ -556,7 +563,6 @@ body {
 
 .select-control:focus-visible {
   border: 2px solid #68a2ca;
-  outline: none;
 }
 
 .select-control:active {
@@ -707,7 +713,6 @@ body {
 
 .more-details-button:focus-visible {
   background-color: #615048;
-  outline: none;
 }
 
 .more-details-button:active {
@@ -729,7 +734,6 @@ body {
 
 .add-to-fav-button:focus-visible {
   background-color: #68a2ca;
-  outline: none;
 }
 
 .add-to-fav-button:active {
@@ -751,7 +755,6 @@ body {
 
 .added-to-fav-button:focus-visible {
   background-color: #6c9e42;
-  outline: none;
 }
 
 .added-to-fav-button:active {
@@ -865,7 +868,6 @@ body {
 
 .want-here-button:focus-visible {
   background-color: #615048;
-  outline: none;
 }
 
 .want-here-button:active {
@@ -1085,7 +1087,6 @@ body {
 
 .hotel-search-button:focus-visible {
   background-color: #615048;
-  outline: none;
 }
 
 .hotel-search-button:active {
@@ -1185,7 +1186,6 @@ body {
 
 .newsletter-button:focus-visible {
   background-color: #68a2ca;
-  outline: none;
 }
 
 .newsletter-button:active {
@@ -1548,7 +1548,6 @@ input::-webkit-inner-spin-button {
 
 .find-booking-button:focus-visible {
   background-color: #68a2ca;
-  outline: none;
 }
 
 .find-booking-button:active {
