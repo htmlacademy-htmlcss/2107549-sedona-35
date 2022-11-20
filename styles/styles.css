@@ -70,10 +70,13 @@ body {
   overflow: hidden;
 }
 
+.page-header-top-logo {
+  position: absolute;
+}
+
 .navigation {
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
+  align-items: center;
   font-weight: 700;
 }
 
@@ -89,7 +92,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin: 0 70px 10px 70px;
+  margin: 0 70px;
   padding: 0;
   gap: 20px;
 }
@@ -161,14 +164,17 @@ body {
 }
 
 .navigation-item-main-page {
-  margin-left: 30px;
+  margin-left: 170px;
+}
+
+.navigation-search-item {
+  margin-left: 148px;
 }
 
 .main-container {
   position: relative;
   flex-grow: 1;
   margin: 0 auto;
-  top: -10px;
 }
 
 .welcome-logo {
@@ -181,10 +187,10 @@ body {
 .divider {
   background-image: url("/images/divider.svg");
   background-repeat: no-repeat;
-  height: 57px;
+  height: 59px;
   width: 1200px;
   position: absolute;
-  top: 428px;
+  top: 429px;
 }
 
 .catalog-main-contents {
