@@ -355,6 +355,7 @@ body {
   margin: 0 1px;
   border: none;
   background-color: #f2f2f2;
+  -moz-appearance: textfield;
 }
 
 .range-input-from {
