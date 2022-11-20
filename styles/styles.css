@@ -19,10 +19,10 @@ html {
 }
 
 body {
+  margin: 0;
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  margin: 0;
   font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -35,6 +35,10 @@ body {
   margin: 0 auto;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   background-color: #ffffff;
+}
+
+.main-container {
+  flex-grow: 1;
 }
 
 .title {
@@ -1232,21 +1236,24 @@ body {
 .page-footer-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
-  margin-left: 81px;
+  padding-top: 45px;
+  padding-bottom: 35px;
+  margin-left: 70px;
   margin-right: 70px;
-  padding-top: 35px;
-  padding-bottom: 25px;
 }
 
 .footer-social-list {
   display: flex;
+  width: 143px;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 3px;
-  gap: 2px;
+  padding-top: 10px;
+  padding-right: 236px;
+  gap: 27px;
 }
 
 .social-icon {
@@ -1270,30 +1277,18 @@ body {
   fill: rgba(104, 162, 202, 0.3);;
 }
 
-.social-icon-vk {
-  padding-top: 11px;
-  padding-right: 12px;
-  padding-bottom: 11px;
-  padding-left: 0;
-}
-
-.social-icon-tg {
-  padding: 11px 12px;
-}
-
-.social-icon-yt {
-  padding-top: 17px;
-  padding-right: 13px;
-  padding-bottom: 10px;
-  padding-left: 13px;
-}
-
 .footer-contacts-address-phone {
   text-decoration: none;
   font-size: 40px;
   line-height: 40px;
   align-items: center;
   color: #000000;
+}
+
+.phone-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 331px;
 }
 
 .footer-contacts-address-phone:hover {
@@ -1316,6 +1311,7 @@ body {
 .htmlacademy-link {
   display: flex;
   align-items: center;
+  margin-left: 235px;
 }
 
 .htmlacademy-link {
