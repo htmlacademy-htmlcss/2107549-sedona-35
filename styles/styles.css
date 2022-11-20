@@ -221,11 +221,12 @@ body {
   gap: 10px;
 }
 
-.breadcrumbs-arrow {
-  background-image: url("../images/arrow-icon.svg");
+.breadcrumbs-item::before {
+  content: url("../images/arrow-icon.svg");
   background-repeat: no-repeat;
   height: 11px;
   width: 8px;
+  margin-right: 6px;
   margin-top: 5px;
 }
 
