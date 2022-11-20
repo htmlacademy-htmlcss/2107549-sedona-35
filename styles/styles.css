@@ -946,10 +946,9 @@ body {
 .avantages-cards-content-with-photo {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   gap: 62px;
-  padding: 0 87px 5px 83px;
+  padding: 92px 87px 5px 83px;
 }
 
 .avantages-cards-content-w-icons {
