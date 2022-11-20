@@ -782,14 +782,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  gap: 8px;
+  gap: 9px;
   padding: 42px 0 40px 0;
 }
 
 .pagination-item a {
   display: flex;
-  width: 60px;
-  height: 60px;
+  padding: 12px 24px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -820,8 +819,7 @@ body {
 
 .first-pagination-item a {
   display: flex;
-  width: 60px;
-  height: 60px;
+  padding: 12px 25px;
   justify-content: center;
   align-items: center;
   text-decoration: none;
@@ -844,7 +842,7 @@ body {
 
 .pagination-item-dots {
   display: flex;
-  width: 60px;
+  width: 56px;
   height: 60px;
   justify-content: center;
   align-items: center;
@@ -854,6 +852,37 @@ body {
   font-weight: 400;
   background-color: #ffffff;
   color: #000000;
+}
+
+.last-pagination-item a {
+  display: flex;
+  padding: 12px 19px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  background-color: #82b3d3;
+  border-radius: 4px;
+  color: #ffffff;
+}
+
+.last-pagination-item a:hover {
+  background-color: #68a2ca;
+}
+
+.last-pagination-item a:focus {
+  background-color: #68a2ca;
+}
+
+.last-pagination-item a:focus-visible {
+  background-color: #68a2ca;
+  outline: none;
+}
+
+.last-pagination-item a:active {
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .want-here-button {
