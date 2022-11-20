@@ -198,6 +198,7 @@ body {
   flex-direction: column;
   background-color: #334d5e;
   background-image: url("../images/catalog-filter-blurred-background.jpeg");
+  background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
 }
