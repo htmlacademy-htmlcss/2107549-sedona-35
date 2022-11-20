@@ -703,11 +703,10 @@ body {
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
-  width: 140px;
 }
 
 .more-details-button {
-  padding: 8px 0;
+  padding: 8px 26px;
   background-color: #756157;
 }
 
@@ -728,7 +727,7 @@ body {
 }
 
 .add-to-fav-button {
-  padding: 8px 0;
+  padding: 8px 20px;
   background-color: #82b3d3;
 }
 
@@ -749,7 +748,7 @@ body {
 }
 
 .added-to-fav-button {
-  padding: 8px 0;
+  padding: 8px 18px;
   background-color: #7db54f;
 }
 
