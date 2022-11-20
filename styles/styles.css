@@ -546,6 +546,7 @@ body {
   border-radius: 4px;
   padding: 14px 18px;
   margin-left: 130px;
+  background-color: #ffffff;
   background-image: url("../images/select-arrow.svg");
   background-repeat: no-repeat;
   background-position: 93%;
