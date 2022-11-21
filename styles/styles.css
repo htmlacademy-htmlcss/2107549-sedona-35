@@ -1297,7 +1297,13 @@ body {
 .phone-wrap {
   display: flex;
   flex-wrap: wrap;
-  width: 331px;
+  width: 333px;
+}
+
+.footer-logo-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
 }
 
 .footer-contacts-address-phone:hover {
