@@ -115,11 +115,19 @@ body {
 }
 
 .navigation-link:hover {
-  color: #4b4b4b;
+  color: #5d5d5d;
 }
 
 .navigation-link:active {
-  color: #7b7b7b;
+  color: #898989;
+}
+
+.navigation-item:hover .navigation-icon {
+  fill: #5d5d5d;
+}
+
+.navigation-item:active .navigation-icon {
+  fill: #898989;
 }
 
 .navigation-link-current::before {
