@@ -115,11 +115,19 @@ body {
 }
 
 .navigation-link:hover {
-  color: #4b4b4b;
+  color: #5d5d5d;
 }
 
 .navigation-link:active {
-  color: #7b7b7b;
+  color: #898989;
+}
+
+.navigation-item:hover .navigation-icon {
+  fill: #5d5d5d;
+}
+
+.navigation-item:active .navigation-icon {
+  fill: #898989;
 }
 
 .navigation-link-current::before {
@@ -151,11 +159,12 @@ body {
 
 .notifications-count {
   font-family: "PT Sans", sans-serif;
+  font-weight: 400;
   font-size: 10px;
   line-height: 10px;
   position: absolute;
   top: -1px;
-  right: 5px;
+  right: 3px;
   background-color: #7db54f;
   cursor: pointer;
   display: flex;
@@ -188,8 +197,8 @@ body {
   padding-bottom: 82px;
 }
 
-.divider {
-  background-image: url("/images/divider.svg");
+.background-image-sedona::after {
+  content: url("../images/divider.svg");
   background-repeat: no-repeat;
   height: 59px;
   width: 1200px;
@@ -994,22 +1003,22 @@ body {
   padding: 80px 85px 81px 85px;
 }
 
-.advantages-home-icon {
-  background-image: url("/images/adv-icons/home-icon.svg");
+.home::before {
+  content: url("../images/adv-icons/home-icon.svg");
   background-repeat: no-repeat;
   height: 73px;
   width: 76px;
 }
 
-.advantages-food-icon {
-  background-image: url("/images/adv-icons/food-icon.svg");
+.food::before {
+  content: url("../images/adv-icons/food-icon.svg");
   background-repeat: no-repeat;
   height: 75px;
   width: 75px;
 }
 
-.advantages-gift-icon {
-  background-image: url("/images/adv-icons/gift-icon.svg");
+.gift::before {
+  content: url("../images/adv-icons/gift-icon.svg");
   background-repeat: no-repeat;
   height: 76px;
   width: 65px;
@@ -1288,7 +1297,13 @@ body {
 .phone-wrap {
   display: flex;
   flex-wrap: wrap;
-  width: 331px;
+  width: 333px;
+}
+
+.footer-logo-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  width: 120px;
 }
 
 .footer-contacts-address-phone:hover {
@@ -1372,8 +1387,8 @@ body {
 .modal-close-button {
   position: absolute;
   padding: 0;
-  top: 64px;
-  right: 52px;
+  top: 68px;
+  right: 51px;
   width: 52px;
   height: 52px;
   border: none;
@@ -1468,18 +1483,14 @@ body {
   line-height: 24px;
 }
 
-.calendar-icon {
-  background-image: url("/images/calendar-icon.svg");
+.field-group::after {
+  content: url("../images/calendar-icon.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 15px;
   right: 22px;
   height: 18px;
   width: 19px;
-}
-
-.calendar-icon path {
-  fill: rgba(0, 0, 0, 0.3)
 }
 
 .people-amount-wrap {
@@ -1590,7 +1601,6 @@ input::-webkit-inner-spin-button {
 .tooltip {
   position: absolute;
   margin-top: 1px;
-  margin-left: 2px;
   transform: translateX(7px);
 }
 
