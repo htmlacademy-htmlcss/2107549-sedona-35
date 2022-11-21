@@ -1478,7 +1478,7 @@ body {
 }
 
 .field-group::after {
-  content: url("/images/calendar-icon.svg");
+  content: url("../images/calendar-icon.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 15px;
