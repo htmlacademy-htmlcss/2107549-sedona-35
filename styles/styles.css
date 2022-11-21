@@ -197,8 +197,8 @@ body {
   padding-bottom: 82px;
 }
 
-.divider {
-  background-image: url("/images/divider.svg");
+.background-image-sedona::after {
+  content: url("/images/divider.svg");
   background-repeat: no-repeat;
   height: 59px;
   width: 1200px;
